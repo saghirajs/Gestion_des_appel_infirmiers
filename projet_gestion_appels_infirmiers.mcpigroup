@@ -1,0 +1,7 @@
+[PROJECTS]
+Count=3
+Project0=..\..\..\..\..\..\PIC_2019\mikroc\lcd.mcppi
+Project1=..\..\..\..\..\..\PIC_2019\mikroc\intro.mcppi
+Project2=..\..\..\..\..\..\PIC_2019\mikroc\projet_gestion_appels_infirmiers.mcppi
+[ActiveProject]
+Index=2

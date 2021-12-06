@@ -1,0 +1,31 @@
+main
+	__CC2DW
+		____DoICP
+	UART1_Init
+	ADC_Init
+	Lcd_Init
+		Delay_5500us
+		Delay_1us
+	Lcd_Cmd
+		Delay_1us
+		Delay_5500us
+		Delay_50us
+	EEPROM_Write
+	EEPROM_Read
+	ADC_Read
+		Delay_22us
+	Lcd_Out
+		Lcd_Cmd
+			Delay_1us
+			Delay_5500us
+			Delay_50us
+		Lcd_Chr_CP
+			Lcd_Cmd
+				Delay_1us
+				Delay_5500us
+				Delay_50us
+	Move_Delay
+	UART1_Write
+	UART1_Write_Text
+		UART1_Write
+interrupt
